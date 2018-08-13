@@ -34,16 +34,17 @@ testCombinedDir = './../ReadyCombineData'
 # CombinedDataDir = testCombinedDir
 
 
+class lanugagefac:
+    def create(self):
+        '''
+            creater 代码毋需修改
+        '''
+        creater = LanguageCreater(lkey, keys)
+        creater.configCsvFiles(filePathDir)
+        creater.configCreatedDir(CreatedDir)
+        creater.configCombinedDataDir(CombinedDataDir)
+        creater.creatAppUsedFilesWithDirs()
+        creater.creatCombinefile()
 
 
 
-
-'''
-    creater 代码毋需修改
-'''
-creater = LanguageCreater(lkey, keys)
-creater.configCsvFiles(filePathDir)
-creater.configCreatedDir(CreatedDir)
-creater.configCombinedDataDir(CombinedDataDir)
-creater.creatAppUsedFilesWithDirs()
-creater.creatCombinefile()

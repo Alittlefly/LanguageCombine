@@ -3,18 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d955a2e2-2e44-4f5e-88a5-6fb7915efcf2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/LanguagesFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/LanguagesFactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/世界喊话-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/个人中心-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/全局说明-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/排行榜-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/日常任务-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/消息系统-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/登录注册-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/竞技PK场游戏-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/货币体系及商城-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/首页-表格 1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadyLanguage/高端擂台场游戏-表格 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Csv_Reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/LanguageUtil/Csv_Reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/LanguageTester.py" beforeDir="false" afterPath="$PROJECT_DIR$/LanguageUtil/LanguageTester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/LanguagesFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/LanguageUtil/LanguagesFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/OutPutWriter.py" beforeDir="false" afterPath="$PROJECT_DIR$/LanguageUtil/OutPutWriter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/ReusltFormater.py" beforeDir="false" afterPath="$PROJECT_DIR$/LanguageUtil/ReusltFormater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allCsv.numbers" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,15 +18,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Languages$Language.coverage" NAME="Language Coverage Results" MODIFIED="1534140274099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/Languages$Language.coverage" NAME="Language Coverage Results" MODIFIED="1534140950718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Languages$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1533557992269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="LanguageTester.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/LanguageTester.py">
+        <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2010">
+            <state relative-caret-position="440">
               <caret line="134" column="64" selection-start-line="134" selection-start-column="64" selection-end-line="134" selection-end-column="64" />
               <folding>
                 <element signature="e#39#48#0" expanded="true" />
@@ -41,17 +35,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LanguagesFactory.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Classes/LanguagesFactory.py">
+      <file leaf-file-name="LanguagesFactory.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguagesFactory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="89">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Csv_Reader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Csv_Reader.py">
+        <entry file="file://$PROJECT_DIR$/LanguageUtil/Csv_Reader.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
@@ -69,7 +72,7 @@
         </entry>
       </file>
       <file leaf-file-name="ReusltFormater.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/ReusltFormater.py">
+        <entry file="file://$PROJECT_DIR$/LanguageUtil/ReusltFormater.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -78,7 +81,7 @@
         </entry>
       </file>
       <file leaf-file-name="OutPutWriter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/OutPutWriter.py">
+        <entry file="file://$PROJECT_DIR$/LanguageUtil/OutPutWriter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -114,6 +117,7 @@
         <option value="$PROJECT_DIR$/Classes/LanguageTester.py" />
         <option value="$PROJECT_DIR$/Classes/ReusltFormater.py" />
         <option value="$PROJECT_DIR$/Classes/LanguagesFactory.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -126,7 +130,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="724" />
@@ -157,17 +161,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="Languages" type="cbb8eebc:String" user="Languages" />
             </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Languages" type="cbb8eebc:String" user="Languages" />
-              <item name="ReadyCombineData" type="cbb8eebc:String" user="ReadyCombineData" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Languages" type="cbb8eebc:String" user="Languages" />
-              <item name="ReadyCombineData" type="cbb8eebc:String" user="ReadyCombineData" />
-              <item name="Android" type="cbb8eebc:String" user="Android" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -181,6 +174,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LanguageUtil" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -205,12 +199,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes/LanguagesFactory.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,15 +241,15 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39839572" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" visible="true" weight="0.328877" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" visible="true" weight="0.328877" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,13 +264,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classes/OutPutWriter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/encodings/punycode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3060">
@@ -319,14 +306,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Csv_Reader.py">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/Csv_Reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/LanguageTester.py">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-end-line="2" />
@@ -336,7 +323,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/OutPutWriter.py">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/OutPutWriter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
@@ -385,7 +372,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Csv_Reader.py">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/Csv_Reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
@@ -434,7 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Csv_Reader.py">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/Csv_Reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
@@ -469,7 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Csv_Reader.py">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/Csv_Reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
@@ -562,7 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/OutPutWriter.py">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/OutPutWriter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -576,16 +563,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Csv_Reader.py">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/ReusltFormater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/__init__">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/Csv_Reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/LanguageTester.py">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguagesFactory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
+        <state relative-caret-position="89">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
           <caret line="134" column="64" selection-start-line="134" selection-start-column="64" selection-end-line="134" selection-end-column="64" />
           <folding>
             <element signature="e#39#48#0" expanded="true" />
@@ -593,23 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/ReusltFormater.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadyCombineData/iOS/中文.strings">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadyCombineData/iOS/tester.strings">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/LanguagesFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
