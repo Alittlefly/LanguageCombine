@@ -8,20 +8,30 @@ from LanguageTester import LanguageCreater
     keys 是 标题栏的多语言的内容. 
 '''
 lkey = 'Key'
-keys = ['中文', '越南语', '英文', '印尼语', '泰语', '越南语', '马来语'  ,'tester']
+keys = ['中文', '越南语', '英文', '印尼语', '泰语', '越南语', '马来语' ]
 
 '''
     表格导出的csv文件
 '''
 filePathDir = '/Users/mac/Desktop/Csv_Language/CsvFiles'
+testPathDir = './../Ready'
+
+# filePathDir = testPathDir
 '''
     表格转好的文件
 '''
 CreatedDir = '/Users/mac/Desktop/Csv_Language/Created_Language'
+testCreatedDir = './../ReadyCreated'
+
+# CreatedDir = testCreatedDir
+
 '''
     合并的文件
 '''
 CombinedDataDir = '/Users/mac/Desktop/Csv_Language/CombineData'
+testCombinedDir = './../ReadyCombineData'
+
+# CombinedDataDir = testCombinedDir
 
 
 
