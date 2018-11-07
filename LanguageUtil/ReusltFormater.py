@@ -1,6 +1,7 @@
 #! usr/bin/env python3
 #coding=utf-8
 
+import re
 class ResultFormater:
     def __init__(self, languageKey, languageKeys):
         self.lkey = languageKey
@@ -70,25 +71,70 @@ class ResultFormater:
     def formatStr(self, key, value):
         return ""
 
+    def formatStrPlaceHolder(self,value,findIndex):
+        matchObject = re.search(pattern,value,re.M | re.I)
+        if not matchObject == None:
+            print(matchObject.group())
+
+
 class iOSResultFormater(ResultFormater):
 
     def fileType(self, key):
         return key + '.strings'
 
     def formatStr(self, key, value):
+        value = value.replace('s1%','s%').replace('s2%','s%').replace('s3%','s%')
+        value = self.formatPlaceHolder(value, 0)
         return str(key) + ' = "' + str(value) + '";' + '\n'
+
+    def formatPlaceHolder(self, value, findIndex):
+        findIndex = findIndex + 1
+        strIndex = value.find('s%')
+        if strIndex != -1:
+            if findIndex == 1:
+                strformat = "(s)"
+            else:
+                strformat = "(s" + str(findIndex - 1) + ")"
+
+            value = value.replace("s%",strformat,1)
+            value = self.formatPlaceHolder(value, findIndex)
+
+        return value
 
 class AndroidResultFormater(ResultFormater):
 
     def fileType(self, key):
         return key + '.xml'
+
     def formatStr(self, key, value):
+        value = value.replace('s1%','s%').replace('s2%','s%').replace('s3%','s%')
+        value = self.formatPlaceHolder(value, 0)
         return '<string name = "' + str(key) + '">' + str(value) + '</string>' + '\n'
+
+    def formatPlaceHolder(self, value, findIndex):
+        findIndex = findIndex + 1
+        strIndex = value.find('s%')
+        if strIndex != -1:
+            strformat = '%' + str(findIndex) + '$s'
+            value = value.replace("s%",strformat,1)
+            value = self.formatPlaceHolder(value, findIndex)
+        return value
 
 class WebResultFormater(ResultFormater):
 
     def fileType(self,key):
         return key + '.properties'
 
+    def formatPlaceHolder(self, value, findIndex):
+        findIndex = findIndex + 1
+        strIndex = value.find('s%')
+        if strIndex != -1:
+            strformat = '{' + str(findIndex - 1) + '}'
+            value = value.replace("s%",strformat,1)
+            value = self.formatPlaceHolder(value, findIndex)
+        return value
+
     def formatStr(self, key, value):
+        value = value.replace('s1%','s%').replace('s2%','s%').replace('s3%','s%')
+        value = self.formatPlaceHolder(value, 0)
         return  str(key) + ' = ' + str(value) + '\n'
