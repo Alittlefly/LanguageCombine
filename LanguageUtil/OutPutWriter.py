@@ -2,6 +2,10 @@
 #coding=utf-8
 
 import os
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 class OutPutWriter:
     def makeOutPutDir(self,dirPath):
@@ -10,7 +14,7 @@ class OutPutWriter:
 
     def write(self, data, fileName):
         outPutPath = self.dirPath + '/' + fileName
-        fo = open(outPutPath, 'w')
+        fo = open(outPutPath, 'w',)
         fo.writelines(data)
         fo.close()
 

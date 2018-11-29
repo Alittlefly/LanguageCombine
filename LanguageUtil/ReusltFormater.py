@@ -51,7 +51,7 @@ class ResultFormater:
                         print('newKey :' + newKey)
 
                 newKey = newKey.strip().replace(' ', '').replace('\n', '').replace('\t', '')
-                value = str(value).strip().replace("\"", "\\\"")
+                value = str(value).strip().replace("\"", "\\\"").encode('utf-8')
                 result = self.formatStr(newKey, value)
 
                 results.append(result)
