@@ -24,18 +24,20 @@ class MyExcelReader(FileReader):
             sheetRowCount = sheet.nrows
             sheetColConnt = sheet.ncols
 
+            print(name)
             # 读取每行的数据
             for row in range(1,sheetRowCount,1):
                 rowValues = sheet.row_values(row);
                 keyValue = {}
 
-                for col in range(1, sheetColConnt, 1):
-                    key = sheetKeys[col]
-                    value = rowValues[col]
+                for col in range(0, sheetColConnt, 1):
+                    key = str(sheetKeys[col]).encode('utf-8')
+                    value = str(rowValues[col]).encode('utf-8')
                     keyValue[key] = value
 
                 keyValues.append(keyValue)
-
+            # print(keyValues)
+            name = str(name).encode('utf-8')
             tupleInfos.append((keyValues, name))
         return tupleInfos
 

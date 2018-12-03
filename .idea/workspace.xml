@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d955a2e2-2e44-4f5e-88a5-6fb7915efcf2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguageUtil/LanguageTester.py" beforeDir="false" afterPath="$PROJECT_DIR$/LanguageUtil/LanguageTester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcelReader/FileReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExcelReader/FileReader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LanguageUtil/LanguagesFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/LanguageUtil/LanguagesFactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguageUtil/OutPutWriter.py" beforeDir="false" afterPath="$PROJECT_DIR$/LanguageUtil/OutPutWriter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LanguageUtil/ReusltFormater.py" beforeDir="false" afterPath="$PROJECT_DIR$/LanguageUtil/ReusltFormater.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Languages$Language.coverage" NAME="Language Coverage Results" MODIFIED="1543486763227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Languages$Language.coverage" NAME="Language Coverage Results" MODIFIED="1543668401936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Languages$Unnamed.coverage" NAME="ExcelReader Coverage Results" MODIFIED="1543483999916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExcelReader" />
   </component>
   <component name="FileEditorManager">
@@ -24,17 +22,26 @@
       <file leaf-file-name="FileReader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExcelReader/FileReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="212">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LanguagesFactory.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="book.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/xlrd/book.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="474" column="8" selection-start-line="474" selection-start-column="8" selection-end-line="474" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LanguagesFactory.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguagesFactory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+            <state relative-caret-position="-205">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -42,7 +49,7 @@
       <file leaf-file-name="__builtin__.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1819056233/__builtin__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="22">
               <caret line="416" column="4" selection-start-line="416" selection-start-column="4" selection-end-line="416" selection-end-column="4" />
             </state>
           </provider>
@@ -51,8 +58,8 @@
       <file leaf-file-name="sheet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/xlrd/sheet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="363" column="27" selection-start-line="363" selection-start-column="13" selection-end-line="363" selection-end-column="27" />
+            <state relative-caret-position="-26">
+              <caret line="491" selection-start-line="491" selection-end-line="491" />
             </state>
           </provider>
         </entry>
@@ -60,8 +67,8 @@
       <file leaf-file-name="LanguageTester.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="184" column="53" lean-forward="true" selection-start-line="184" selection-start-column="53" selection-end-line="184" selection-end-column="53" />
+            <state relative-caret-position="101">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#39#48#0" expanded="true" />
               </folding>
@@ -69,20 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReusltFormater.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LanguageUtil/ReusltFormater.py">
+      <file leaf-file-name="Csv_Reader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LanguageUtil/Csv_Reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutPutWriter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LanguageUtil/OutPutWriter.py">
+      <file leaf-file-name="ReusltFormater.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LanguageUtil/ReusltFormater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="-119">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="e#38#47#0" expanded="true" />
               </folding>
@@ -90,11 +97,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="typing.pyi" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
+      <file leaf-file-name="OutPutWriter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LanguageUtil/OutPutWriter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="316" column="8" selection-start-line="316" selection-start-column="8" selection-end-line="316" selection-end-column="8" />
+            <state relative-caret-position="154">
+              <caret line="7" column="14" selection-start-line="7" selection-end-line="8" />
+              <folding>
+                <element signature="e#38#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +128,7 @@
       <find>createAppUsedLanguageFile</find>
       <find>sheet</find>
       <find>_cell_values</find>
+      <find>formatPlaceHolder</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,11 +147,11 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/ExcelReader/ExcelReader.py" />
         <option value="$PROJECT_DIR$/LanguageUtil/Csv_Reader.py" />
-        <option value="$PROJECT_DIR$/ExcelReader/FileReader.py" />
         <option value="$PROJECT_DIR$/LanguageUtil/OutPutWriter.py" />
-        <option value="$PROJECT_DIR$/LanguageUtil/ReusltFormater.py" />
         <option value="$PROJECT_DIR$/LanguageUtil/LanguageTester.py" />
         <option value="$PROJECT_DIR$/LanguageUtil/LanguagesFactory.py" />
+        <option value="$PROJECT_DIR$/ExcelReader/FileReader.py" />
+        <option value="$PROJECT_DIR$/LanguageUtil/ReusltFormater.py" />
       </list>
     </option>
   </component>
@@ -155,9 +166,8 @@
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1280" />
-    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="989" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -297,28 +307,28 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.088541664" side_tool="true" visible="true" weight="0.22276264" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.116145834" side_tool="true" visible="true" weight="0.23151751" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9114583" weight="0.22276264" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.88385415" visible="true" weight="0.23151751" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13229166" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9192708" weight="0.36575875" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.884375" weight="0.0" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" visible="true" weight="0.328877" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" visible="true" weight="0.328877" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,23 +342,28 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py</url>
           <line>50</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="33" />
+          <line>104</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LanguageUtil/ReusltFormater.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LanguageUtil/ReusltFormater.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -358,10 +373,17 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguagesFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LanguageUtil/OutPutWriter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -581,9 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExcelReader/ExcelReader.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -608,9 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExcelReader/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -625,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/xlrd/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/xlrd/biffh.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -639,24 +648,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="363" column="27" selection-start-line="363" selection-start-column="13" selection-end-line="363" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="6908">
           <caret line="316" column="8" selection-start-line="316" selection-start-column="8" selection-end-line="316" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LanguageUtil/OutPutWriter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-end-line="8" />
           <folding>
             <element signature="e#38#47#0" expanded="true" />
           </folding>
@@ -665,36 +667,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LanguageUtil/Csv_Reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1819056233/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="22">
           <caret line="416" column="4" selection-start-line="416" selection-start-column="4" selection-end-line="416" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LanguageUtil/ReusltFormater.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/xlrd/sheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="-26">
+          <caret line="491" selection-start-line="491" selection-end-line="491" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExcelReader/FileReader.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/encodings/utf_8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguageTester.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="184" column="53" lean-forward="true" selection-start-line="184" selection-start-column="53" selection-end-line="184" selection-end-column="53" />
+        <state relative-caret-position="101">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#39#48#0" expanded="true" />
           </folding>
@@ -703,8 +705,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LanguageUtil/LanguagesFactory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        <state relative-caret-position="-205">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/xlrd/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="474" column="8" selection-start-line="474" selection-start-column="8" selection-end-line="474" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExcelReader/FileReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LanguageUtil/ReusltFormater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#38#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

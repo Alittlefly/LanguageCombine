@@ -2,6 +2,11 @@
 #coding=utf-8
 
 import re
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+
 class ResultFormater:
     def __init__(self, languageKey, languageKeys):
         self.lkey = languageKey
@@ -9,6 +14,7 @@ class ResultFormater:
 
     def formatResult(self, keyValues):
 
+        # print( 'hahah' , keyValues)
         datas = []
         for index in range(0, len(self.languageKeys), 1):
             formatDict = {}
@@ -18,7 +24,6 @@ class ResultFormater:
 
             results = []
             for kv in keyValues:
-
                 if not kv.has_key(self.lkey) or not kv.has_key(nameKey):
                     continue
 
@@ -51,7 +56,7 @@ class ResultFormater:
                         print('newKey :' + newKey)
 
                 newKey = newKey.strip().replace(' ', '').replace('\n', '').replace('\t', '')
-                value = str(value).strip().replace("\"", "\\\"").encode('utf-8')
+                value = str(value).strip().replace("\"", "\\\"")
                 result = self.formatStr(newKey, value)
 
                 results.append(result)
@@ -63,6 +68,7 @@ class ResultFormater:
             formatDict['name'] = outputFileName
             formatDict['data'] = results
             datas.append(formatDict)
+        # print('----- ' , datas)
         return  datas
 
     def fileType(self,key):
@@ -90,6 +96,7 @@ class iOSResultFormater(ResultFormater):
     def formatPlaceHolder(self, value, findIndex):
         findIndex = findIndex + 1
         strIndex = value.find('s%')
+
         if strIndex != -1:
             if findIndex == 1:
                 strformat = "(s)"
@@ -97,6 +104,7 @@ class iOSResultFormater(ResultFormater):
                 strformat = "(s" + str(findIndex - 1) + ")"
 
             value = value.replace("s%",strformat,1)
+            print('formatPlaceHolder',value)
             value = self.formatPlaceHolder(value, findIndex)
 
         return value
@@ -116,7 +124,7 @@ class AndroidResultFormater(ResultFormater):
         strIndex = value.find('s%')
         if strIndex != -1:
             strformat = '%' + str(findIndex) + '$s'
-            value = value.replace("s%",strformat,1)
+            value = value.replace(s%",strformat,1)
             value = self.formatPlaceHolder(value, findIndex)
         return value
 
@@ -131,7 +139,7 @@ class WebResultFormater(ResultFormater):
         if strIndex != -1:
             strformat = '{' + str(findIndex - 1) + '}'
             value = value.replace("s%",strformat,1)
-            value = self.formatPlaceHolder(value, findIndex)
+            # value = self.formatPlaceHolder(value, findIndex)
         return value
 
     def formatStr(self, key, value):
