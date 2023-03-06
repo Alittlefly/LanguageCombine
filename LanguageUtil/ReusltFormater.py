@@ -3,8 +3,8 @@
 
 import re
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
+# reload(sys)
+# sys.setdefaultencoding('utf8')
 
 
 class ResultFormater:
@@ -24,7 +24,7 @@ class ResultFormater:
 
             results = []
             for kv in keyValues:
-                if not kv.has_key(self.lkey) or not kv.has_key(nameKey):
+                if not self.lkey in kv or not nameKey in kv:
                     continue
 
                 valueKey = kv[self.lkey]
@@ -103,7 +103,7 @@ class iOSResultFormater(ResultFormater):
             else:
                 strformat = "(s" + str(findIndex - 1) + ")"
 
-            value = value.replace("s%",strformat,1)
+            value = value.replace("s%",strformat)
             print('formatPlaceHolder',value)
             value = self.formatPlaceHolder(value, findIndex)
 
@@ -124,7 +124,7 @@ class AndroidResultFormater(ResultFormater):
         strIndex = value.find('s%')
         if strIndex != -1:
             strformat = '%' + str(findIndex) + '$s'
-            value = value.replace(s%",strformat,1)
+            value = value.replace("s%", strformat, 1)
             value = self.formatPlaceHolder(value, findIndex)
         return value
 
@@ -138,7 +138,7 @@ class WebResultFormater(ResultFormater):
         strIndex = value.find('s%')
         if strIndex != -1:
             strformat = '{' + str(findIndex - 1) + '}'
-            value = value.replace("s%",strformat,1)
+            value = value.replace("s%", strformat, 1)
             # value = self.formatPlaceHolder(value, findIndex)
         return value
 
